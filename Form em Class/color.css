@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+body {
+    background: rgb(46, 84, 87);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+
+.container {
+    max-width: 650px;
+    height: auto;
+    margin: 50px auto;
+    background: cornsilk;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section label {
+    padding: 1px;
+}
+
+section input {
+    width: 100%;
+}
+
+.red {
+    font-size: 12px;
+    color: red;
+}
+
+section input:focus {
+    outline: 1px solid orange;
+}
+
+section input:hover {
+    outline: 1px solid orange;
+}
+
+.btn:active {
+    position: relative;
+    top: 3px;
+}
+
+.btn {
+    border-radius: 0px 5px;
+    background: rgb(239, 243, 243);
+    height: 25px;
+}
