@@ -6,5 +6,6 @@ Validando um formulário com factory functions e classes(extendido) --
 # cpf 
 
 Validamos um CPF calculando seus dígitos.
+Validando um formulário sem o uso de funções do html como 'required'.
 
 
